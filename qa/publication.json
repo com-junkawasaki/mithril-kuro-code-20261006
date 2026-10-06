@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-06",
+  "repository": "https://github.com/com-junkawasaki/mithril-kuro-code-20261006",
+  "pages": "https://com-junkawasaki.github.io/mithril-kuro-code-20261006/",
+  "source_files": 5,
+  "actual_ui_commits": {
+    "desktop_preview25": "5bd533545b4c790378b62e5e8d3e7e4c3c03e314",
+    "code_web": "05e11f25cad7d2d3f0310eaa61b2d3b496bd6edd",
+    "app_web": "d347fce2d8938db33cf365203caf0c884c075814"
+  },
+  "pages_built_commit": "d347fce2d8938db33cf365203caf0c884c075814",
+  "source_edits_only_readme_after_initial_commit": true,
+  "initial_pages_files_match_source_bytes": true,
+  "public_browser_result": 391,
+  "github_credentials": "transient; disconnected on all three screens",
+  "desktop": {
+    "version": "0.8.0-preview.25",
+    "source": "b9be41dd19eed2b2f03cf7eb379626da529780f9",
+    "release_run": 37448571175,
+    "release_assets": 20,
+    "arm64_zip_sha256": "1b9ec4d44d0b995dcd9a7e297df24de8ac287e9f783eb89082c5848790209726",
+    "codesign": "deep strict verified",
+    "gatekeeper": "accepted; Notarized Developer ID; Jun Kawasaki (3A5CBTEBFP)",
+    "installed": true
+  },
+  "kuro_live_execution": {
+    "desktop_preview25": {
+      "javascript": {
+        "exit_code": 0,
+        "runtime": "quickjs-wasm-worker",
+        "result": 391
+      },
+      "python": {
+        "exit_code": 124,
+        "error": "deadline exceeded",
+        "qualified": false
+      }
+    },
+    "authenticated_app": {
+      "javascript": {
+        "exit_code": 0,
+        "result": 391
+      },
+      "python": {
+        "exit_code": 0,
+        "runtime": "pyodide-worker-js-bridge",
+        "result": 391
+      }
+    },
+    "code_web": {
+      "javascript": {
+        "exit_code": 0,
+        "runtime": "quickjs-wasm-worker",
+        "result": 391
+      },
+      "python": {
+        "qualified": true,
+        "exit_code": 0,
+        "runtime": "pyodide-worker-js-bridge",
+        "result": 391
+      }
+    }
+  },
+  "jev_generation": "separate pilot Node/NBB; later requests failed harness_verification_failed; earlier run-YsQzP2 is qualified separately",
+  "final_pages_files_match_app_source_commit": true,
+  "ui_commit_chain": [
+    {
+      "sha": "5bd533545b4c790378b62e5e8d3e7e4c3c03e314",
+      "parent": "9eae42fd08055726c2e5ae14bb73720369ce16f3",
+      "changed": [
+        ".nojekyll",
+        "README.md",
+        "index.html",
+        "main.js",
+        "main.py"
+      ]
+    },
+    {
+      "sha": "05e11f25cad7d2d3f0310eaa61b2d3b496bd6edd",
+      "parent": "5bd533545b4c790378b62e5e8d3e7e4c3c03e314",
+      "changed": [
+        "README.md"
+      ]
+    },
+    {
+      "sha": "d347fce2d8938db33cf365203caf0c884c075814",
+      "parent": "05e11f25cad7d2d3f0310eaa61b2d3b496bd6edd",
+      "changed": [
+        "README.md"
+      ]
+    }
+  ],
+  "app_deployment": {
+    "source": "6bc499be4362f0861ac3d10126ce59b0dbd8a58e",
+    "run": 37452069604,
+    "version": "a6dddbfa-b3ec-47f9-a5d1-3447910f6331",
+    "rollback": "f0abb1b4-0957-4c50-82a3-5071acfa053c"
+  },
+  "code_deployment": {
+    "source": "6bc499be4362f0861ac3d10126ce59b0dbd8a58e",
+    "run": 37453031274,
+    "conclusion": "success",
+    "version": "1ec89ef5-8dcc-42c0-9da8-c908728c46ce",
+    "rollback": "48002b29-38f1-424b-b56e-33bf13501490",
+    "workspace_sha256": "609a5fb4e56176bdd33320c4e70011daa5f1b1fe452ee059400ac78cb150258c"
+  },
+  "desktop_python_diagnosis": {
+    "assets": "host, host.js, pyodide-lock.json, stdlib, wasm and module loaded successfully",
+    "deadline_seconds": 30,
+    "native_success_claim": false,
+    "host_load_averages": [
+      361.02,
+      322.63,
+      247.69
+    ],
+    "causality": "unknown; contention observed, not proven as sole cause; sandbox and deadline not weakened"
+  },
+  "authenticated_app_live_isolation": {
+    "exit_code": 0,
+    "result": {
+      "storage": "blocked",
+      "api": "blocked",
+      "network": "blocked"
+    },
+    "source_restored_without_saving_probe": true
+  }
+}
